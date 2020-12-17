@@ -1,17 +1,16 @@
-SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = .
-BUILDDIR      = build
+BUILDDIR      ?= ./build
 
 .PHONY: clean help html
 
 clean:
-	@rm -r "$(BUILDDIR)/*"
+	@rm -r "$(BUILDDIR)"
 
 help:
-	@echo "clean	Clean $(BUILDDIR)"
-	@echo "html		Build HTML"
-	@echo "help		Show this message"
+	@echo "Please use 'make <target>'"
+	@echo "clean       Clean $(BUILDDIR)"
+	@echo "html        Build HTML"
+	@echo "help        Show this message"
 
 html:
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -b html . "$(BUILDDIR)"
