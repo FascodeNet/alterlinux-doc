@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Fascode Network
+# This file is distributed under the same license as the Alter Linux
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alter Linux 2020-12-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-17 22:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../docs/config.rst:2
+msgid "About build configuration file"
+msgstr "設定について"
+
+#: ../../docs/config.rst:4
+msgid ""
+"Various settings exist in the build of alteriso. The user can change some"
+" of these settings with arguments, but some of them only can be changed "
+"by editing the configuration file. *Also*, channel developers may wish to"
+" prohibit some values from being changed. This section explains the "
+"changeable values and the order in which the configuration files are "
+"loaded."
+msgstr ""
+"alterisoではビルドに様々な設定が存在しています。"
+"ユーザーはこれらの設定の一部を引数で変更することができますが、"
+"中には設定ファイルを編集することでしか変更できないものも存在しています。"
+"また、チャンネルの開発者は一部の値の変更を禁止したいかもしれません。"
+"ここでは設定できる値と読み込まれる設定ファイルの順番について説明しています。"
+
+#: ../../docs/config.rst:10
+msgid "Syntax"
+msgstr "構文"
+
+#: ../../docs/config.rst:12
+msgid ""
+"All the configuration file is written in bash scripts. Also, all settings"
+" are read by the ``source`` command."
+msgstr ""
+"設定は全てbashスクリプトで書かれています。"
+"また設定の読み込みは全てbashの組み込みコマンドである ``source`` コマンドで行われます。"
+
+#: ../../docs/config.rst:15
+msgid "Values can be set"
+msgstr "設定できる値"
+
+#: ../../docs/config.rst:17
+msgid ""
+"The full list of changeable values is in ``default.conf``. It is "
+"recommended that copy the comments with it when you copy the "
+"configuration into a separate file and make changes."
+msgstr ""
+"変更できる値の完全な一覧は ``default.conf`` にかかれています。"
+"設定を別ファイルにコピーして変更する際はそのコメントも一緒にコピーすることを推奨します。"
+
+#: ../../docs/config.rst:21
+msgid "List of files to be read"
+msgstr "読み込まれるファイル一覧"
+
+#: ../../docs/config.rst:23
+msgid ""
+"They are read in order from the top. Please replace with architecture and"
+" channel name when read the ``<architecture>`` and ``<channel_name>`` If "
+"the same variable is set, it is overwritten each time the configuration "
+"file is read."
+msgstr ""
+"上から順番に読み込まれます。 "
+"``<arch>`` と ``<ch_name>`` はそれぞれアーキテクチャとチャンネル名に置き換えてください。"
+"同じ変数が設定されていた場合、設定ファイルが読み込まれるごとに上書きされます。"
+
+#: ../../docs/config.rst:29
+msgid "File path"
+msgstr "ファイルパス"
+
+#: ../../docs/config.rst:30
+msgid "Remarks"
+msgstr "備考"
+
+#: ../../docs/config.rst:31
+msgid "default.conf"
+msgstr ""
+
+#: ../../docs/config.rst:32
+msgid "All values will be set here (essential)"
+msgstr "全ての値がここで設定されます（必須）"
+
+#: ../../docs/config.rst:33
+msgid "channels/share/config.any"
+msgstr ""
+
+#: ../../docs/config.rst:35
+msgid "channels/share/config.<architecture>"
+msgstr ""
+
+#: ../../docs/config.rst:37
+msgid "channels/<channel_name>/config.any"
+msgstr ""
+
+#: ../../docs/config.rst:39
+msgid "channels/<channel_name>/config.<architecture>"
+msgstr ""

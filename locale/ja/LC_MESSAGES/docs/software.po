@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Fascode Network
+# This file is distributed under the same license as the Alter Linux
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alter Linux 2020-12-17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-17 22:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../docs/software.rst:3
+msgid "About the source code of our package"
+msgstr "独自のパッケージのソースコードについて"
+
+#: ../../docs/software.rst:6
+msgid "Repositories and software"
+msgstr "リポジトリとソフトウェア"
+
+#: ../../docs/software.rst:8
+msgid ""
+"If you use the Alter Linux repository, you need to add a key. See "
+"Preparing for a build."
+msgstr ""
+"Alter Linuxのリポジトリを使用する場合は鍵を追加する必要が有ります。"
+"ビルドの準備を参照して下さい。"
+
+#: ../../docs/software.rst:11
+msgid "Repositories"
+msgstr "リポジトリ"
+
+#: ../../docs/software.rst:13
+msgid ""
+"GitHub repositories that were used before are no longer used. Currently, "
+"`this server <https://xn--d-8o2b.com/repo/>`_ is the latest repository."
+msgstr ""
+"以前まで使用されていたGitHubのリポジトリは現在は使用されていません。現在は `こちらのサーバ <https://xn--d-8o2b.com/repo/>`_ が最新のリポジトリです。"
+"ファイルストレージ機能を使用したミラーリポジトリも存在しています。"
+
+#: ../../docs/software.rst:16
+msgid "Software"
+msgstr "ソフトウェア"
+
+#: ../../docs/software.rst:18
+msgid ""
+"Most packages are official packages or published on the AUR, but some are"
+" not in either. The source code of such packages and links to PKGBUILD "
+"are listed below. If you need a binary file, access `the Alter Linux "
+"repository <https://xn--d-8o2b.com/repo/alter-stable/>`_."
+msgstr ""
+"ほとんどのパッケージは公式パッケージか、AUR上に公開していますが、一部のものはどちらにもありません。"
+"そのようなパッケージのソースコードとPKGBUILDへのリンクを以下に記載します。 バイナリファイルが必要な場合は `Alter Linux <https://xn--d-8o2b.com/repo/alter-stable/>`_ のリポジトリにアクセスして下さい。"
+
+#: ../../docs/software.rst:24
+msgid "Source code"
+msgstr "ソースコード"
+
+#: ../../docs/software.rst:25
+msgid "PKGBUILD"
+msgstr ""
+
+#: ../../docs/software.rst:26
+msgid ""
+"`alterlinux-calamares <https://github.com/FascodeNet/alterlinux-"
+"calamares>`_"
+msgstr ""
+
+#: ../../docs/software.rst:27
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-calamares>`__"
+msgstr ""
+
+#: ../../docs/software.rst:28
+msgid ""
+"`alterlinux-fcitx-conf <https://github.com/FascodeNet/alterlinux-fcitx-"
+"conf>`_"
+msgstr ""
+
+#: ../../docs/software.rst:29
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-fcitx-conf>`__"
+msgstr ""
+
+#: ../../docs/software.rst:30
+msgid ""
+"`alterlinux-gtk-bookmarks <https://github.com/FascodeNet/alterlinux-live-"
+"tools/tree/master/alterlinux-gtk-bookmarks>`_"
+msgstr ""
+
+#: ../../docs/software.rst:31
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-gtk-bookmarks>`__"
+msgstr ""
+
+#: ../../docs/software.rst:32
+msgid ""
+"`alterlinux-i3-manager "
+"<https://github.com/FascodeNet/alterlinux-i3-manager>`_"
+msgstr ""
+
+#: ../../docs/software.rst:33
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-i3-manager>`__"
+msgstr ""
+
+#: ../../docs/software.rst:34
+msgid "`alterlinux-keyring <https://github.com/FascodeNet/alterlinux-keyring>`_"
+msgstr ""
+
+#: ../../docs/software.rst:35
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-keyring>`__"
+msgstr ""
+
+#: ../../docs/software.rst:36
+msgid ""
+"`alterlinux-live-tools <https://github.com/FascodeNet/alterlinux-live-"
+"tools>`_"
+msgstr ""
+
+#: ../../docs/software.rst:37
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-live-tools>`__"
+msgstr ""
+
+#: ../../docs/software.rst:38
+msgid ""
+"`alterlinux-mirrorlist <https://github.com/FascodeNet/alterlinux-"
+"pkgbuilds/tree/master/alter-stable/any/alterlinux-mirrorlist>`_"
+msgstr ""
+
+#: ../../docs/software.rst:39
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-mirrorlist>`__"
+msgstr ""
+
+#: ../../docs/software.rst:40
+msgid ""
+"`alterlinux-wallpapers <https://github.com/FascodeNet/alterlinux-"
+"pkgbuilds/tree/master/alter-stable/any/alterlinux-wallpapers>`_"
+msgstr ""
+
+#: ../../docs/software.rst:41
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-wallpapers>`__"
+msgstr ""
+
+#: ../../docs/software.rst:42
+msgid ""
+"`alterlinux-welcome-page <https://github.com/FascodeNet/alterlinux-live-"
+"tools/tree/master/alterlinux-welcome-page>`_"
+msgstr ""
+
+#: ../../docs/software.rst:43
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-welcome-page>`__"
+msgstr ""
+
+#: ../../docs/software.rst:44
+msgid ""
+"`alterlinux-xfce-conf <https://github.com/FascodeNet/alterlinux-xfce-"
+"conf>`_"
+msgstr ""
+
+#: ../../docs/software.rst:45
+msgid ""
+"`PKGBUILD <https://github.com/FascodeNet/alterlinux-pkgbuilds/tree/master"
+"/alter-stable/any/alterlinux-xfce-conf>`__"
+msgstr ""
+
