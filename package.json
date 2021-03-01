@@ -1,0 +1,17 @@
+{
+    "name": "alterlinux-doc",
+    "description": "The AlterLinux Document",
+    "version": "0.1.0",
+    "author": "YamaD <yamad@fascode.net>",
+    "devDependencies": {
+        "vuepress": "1.x",
+        "@vuepress/plugin-back-to-top": "1.x",
+        "@vuepress/plugin-medium-zoom": "1.x",
+        "@vuepress/plugin-nprogress": "1.x"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "vuepress build docs",
+        "dev": "vuepress dev docs"
+    }
+}
